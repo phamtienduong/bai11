@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        1.for
+        cấu trúc cơ bản gồm 3 phần.
+        phần 1: giá trị khởi tạo.
+        phần 2: kiểm tra điều kiện.
+        phần 3: bước nhảy.
+
+        for chạy như nào
+        đầu tiên lấy gias trị khởi tạo đi và so sánh với điều kiện
+        ==> nếu diều kiện đúng thì vòng lặp for thực thi xong lại quay về bước nhảy sau đó 
+        lại kiểm tra điều kiện
+        ==> nếu điều kiện sai thì dừng luôn chương trình
+        - Continue: bỏ qua lần lặp của vòng lặp
+        - Break: thoát khỏi vòng lặp
+     -->
+     <script>
+        // for (let i = 1; i <= 10; i++) {
+        //     console.log("i",i);
+        //     for (let j = 1; j < 3; j++) {
+        //         continue
+        //       console.log("j",j);
+              
+        //     }
+        //     console.log("***********");
+            
+        // }
+        // for (let i = 2; i < 9; i++) {
+        //     for (let j = 1; j <=10 ; j++) {
+        //         document.write(`${i}x ${j}=${i*j}`);
+        //         document.write("<br>")
+        //     }
+        //     document.write("***********");
+        //     document.write(`<br>`)
+            
+        // }
+        // for (let i = 1; i < 5; i++) {
+        //     for (let j = 1; j <= i ; j++) {
+        //         document.write("*");
+        //         document.write("&nbsp&nbsp");
+        //     }
+        //     document.write(`<br>`);
+        // }
+        for (let i = 1; i < 10; i++) {
+            for (let j = 1; j <= i ; j++) {
+                document.write("*");
+                document.write("&nbsp&nbsp");
+            }
+            document.write(`<br>`);
+        }
+     </script>
+</body>
+</html>
